@@ -20,12 +20,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setIcon(R.drawable.ic_launcher);
-        setTitle("초간단계산기");
+        setTitle("초간단계산기");  // 어플 상단에 뜰 이름
 
         Button btnAdd,btnSub,btnMul,btnDiv,btnR;
         EditText edit1,edit2;
         TextView textview;
-        final String[] num1 = new String[1];
+        final String[] num1 = new String[1]; // 지역변수 string을 final 선언으로 상수로 변환해줌.
         final String[] num2 = new String[1];
         final Double[] result = new Double[1];
 
